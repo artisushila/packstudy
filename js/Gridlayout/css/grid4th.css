@@ -1,0 +1,88 @@
+*{
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.grid-container{
+    width: 100%;
+<<<<<<< HEAD
+    height: 100vh;
+=======
+    height: 100%;
+>>>>>>> dc4d046490af793d81e54e4e5b4687e8ad2cc304
+    background-color: red;
+    color: white;
+    display: grid;
+<<<<<<< HEAD
+    gap: 2px;
+=======
+>>>>>>> dc4d046490af793d81e54e4e5b4687e8ad2cc304
+    grid-template-areas:
+     "header header header header"
+     "Menu Main Main Ad1"
+     "Ad2 Main Main Ad1"
+     "footer footer footer footer";
+     color: white;
+}
+
+.grid-item{
+    min-height: 100px;
+}
+
+.item1{
+    grid-area: header;
+    background-color: rgb(16, 16, 236);
+<<<<<<< HEAD
+=======
+}
+.item1 h6{
+    padding-top: 25px;
+>>>>>>> dc4d046490af793d81e54e4e5b4687e8ad2cc304
+}
+
+.item2{
+    height: 55vh;
+    grid-area: Menu;
+    background-color: rgb(116, 161, 230);
+}
+.item2 h6{
+    padding-top: 175px;
+}
+
+.item3{
+    grid-area: Main;
+    background-color: rgb(116, 161, 230);
+}
+.item3 h6{
+    padding-top: 175px;
+}
+
+.item4{
+    grid-area: Ad1;
+    background-color: rgb(116, 161, 230);
+}
+.item4 h6{
+    padding-top: 175px;
+}
+
+.item5{
+    grid-area: Ad2;
+    background-color: rgb(116, 161, 230);
+}
+.item5 h6{
+    padding-top: 25px;
+}
+
+.item6{
+<<<<<<< HEAD
+=======
+    height: 10%;
+>>>>>>> dc4d046490af793d81e54e4e5b4687e8ad2cc304
+    grid-area: footer;
+    background-color: rgb(16, 16, 236);
+}
+.item6 h6{
+    padding-top: 25px;
+}

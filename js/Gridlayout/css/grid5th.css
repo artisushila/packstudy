@@ -1,0 +1,93 @@
+*{
+<<<<<<< HEAD
+    margin: 10px;
+=======
+    margin: 5px;
+>>>>>>> dc4d046490af793d81e54e4e5b4687e8ad2cc304
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.grid-container{
+    width: 100%;
+<<<<<<< HEAD
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    gap: 2px;
+    grid-template-areas: 
+    "Holy Holy Holy Holy"
+    "Nav Main Main Sidebar"
+    "Nav Main Main Sidebar"
+=======
+    height: 95%;
+    display: grid;
+    color: white;
+    grid-template-areas: 
+    "Holy Holy Holy Holy"
+    "Nav Main Main Sidebar"
+>>>>>>> dc4d046490af793d81e54e4e5b4687e8ad2cc304
+    "footer footer footer footer";
+}
+
+.grid-item{
+    min-height: 100px;
+}
+.item1{
+    background-color: #0066ff;
+    height: 5vh;
+    grid-area: Holy;
+    background-color: rgba(0, 132, 255, 0.966);
+}
+.item1 h6{
+    padding-top: 40px;
+}
+
+.item2{
+    background-color: rgba(110, 174, 235, 0.966);
+    height: 70vh;
+    grid-area: Nav;
+    background-color: rgb(93, 154, 211);
+}
+<<<<<<< HEAD
+.item3{
+    grid-area: Main;
+    background-color: rgb(170, 163, 163);
+=======
+.item2 h6{
+    padding-top: 180px;
+>>>>>>> dc4d046490af793d81e54e4e5b4687e8ad2cc304
+}
+
+.item3{
+    background-color: grey;
+    grid-area: Main;
+}
+.item3 h6{
+    padding-top: 180px;
+}
+
+.item4{
+    background-color: rgba(110, 174, 235, 0.966);
+    grid-area: Sidebar;
+    background-color: rgb(93, 154, 211);
+}
+<<<<<<< HEAD
+.item5{
+    grid-area: footer;
+    background-color: rgba(0, 132, 255, 0.966);
+=======
+.item4 h6{
+    padding-top: 180px;
+}
+
+.item5{
+    background-color: #0066ff;
+    height: 5vh;
+    grid-area: footer;
+}
+.item5 h6{
+    padding-top: 35px;
+>>>>>>> dc4d046490af793d81e54e4e5b4687e8ad2cc304
+}
