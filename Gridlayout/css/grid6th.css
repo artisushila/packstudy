@@ -7,7 +7,7 @@
     display: grid;
     width: 100%;
     height: 100vh;
-    color: brown;
+    color: #ffe6cc;
     gap: 10px;
     grid-template-areas: 
     "Link1 Link2 Link3 Link4"
@@ -19,7 +19,7 @@
 
 .grid-item{
     border-radius: 5px;
-    box-shadow: 5px 5px 10px #ff1493;
+    box-shadow: 5px 5px 10px #663300;
 }
 
 .item-1{
