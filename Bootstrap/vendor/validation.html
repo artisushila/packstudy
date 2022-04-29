@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation-Layout</title>
+    <link rel="stylesheet" href="/Bootstrap/resource/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <h3>Validation-layout</h3>
+                    <form class="was-validated">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-sm-12 form-floating">
+                            <input type="text" class="form-control" pattern="[A-Z a-z @]+$" placeholder="password" required>
+                            <label class="floating-label">password</label>
+                            <div class="valid-feedback">correct process</div>
+                            <div class="invalid-feedback">incorrect process</div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

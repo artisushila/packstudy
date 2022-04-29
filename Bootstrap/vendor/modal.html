@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal-page</title>
+    <link rel="stylesheet" href="/Bootstrap/resource/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        .card{
+            border-radius: 10px !important;
+        }
+        .card-body{
+            padding: 0 !important;
+        }
+        .modal-body img{
+            margin-left: 50px !important;
+        }
+        .card-footer,.btn{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="row mx-5 my-5">
+        <div class="col-md-4 col-sm-4 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="/Bootstrap/vendor/img/modal-1.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-footer">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-6 col-sm-6 col-lg-6">
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#example">
+                                <i class="fa-regular fa-eye"></i>
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="example">
+                    <div class="modal-dialog modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-item">
+                                    Data Structures & Algorithms Design Patterns in Java
+                                </h5>
+                                <button type="button" class="btn btn-close" data-bs-toggle="modal" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/Bootstrap/vendor/img/modal-1.jpg" alt="pic can't load due to network issue">
+                                <p>
+                                    Design patterns represent the best practices used by experienced <br>
+                                    object-oriented software developers. 
+                                    Design patterns are <br> 
+                                    solutions to general problems that software developers faced <br>
+                                    during software development.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal">Save Changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/Bootstrap/resource/js/bootstrap.min.js"></script>
+</body>
+</html>

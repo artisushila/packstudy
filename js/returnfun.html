@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return_function-page</title>
+</head>
+<body>
+    
+
+    <script>
+        function returnfun(college){
+            var a = college;
+            return a;
+        };
+        var b = returnfun('Jk. college of science and commerec');
+        document.write(b);
+        document.write('<br>');
+        document.write('<br>');
+
+        document.write('Total subject :- 5 <br>'+'Total marks :- 500 <br> <br>');
+        function marks(English,Maths,IT,Physics,Chemistry){
+            var a = English+Maths+IT+Physics+Chemistry;
+            return a;
+        };
+        var c = marks(60,5,75,65,60);
+        document.write('Total marks obtained :- '+ c +'<br>');
+        
+        function percentage(Totalmarks){
+            var a = Totalmarks/500*100;
+            return a;
+        };
+        var d = percentage(c);
+        document.write('percentage :-'+ d +'%');
+    </script>
+</body>
+</html>
